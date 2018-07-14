@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/back_layout"
+                layout="@layout/top_fragment" />
+
+            <include
+                android:id="@+id/settings_top_layout"
+                layout="@layout/settings_main_top_layout" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_zero"
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:layout_below="@+id/top_layout" />
+
+        <TextView
+            android:id="@+id/account_bind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_zero"
+            android:layout_marginLeft="20px"
+            android:text="@string/account_bind"
+            android:textColor="@color/colorWord" />
+
+        <View
+            android:id="@+id/view_one"
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:layout_below="@+id/account_bind" />
+
+        <LinearLayout
+            android:id="@+id/account_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_one"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:gravity="center_vertical"
+                android:text="@string/account_name"
+                android:textColor="@color/colorName"
+                android:textSize="30px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorShape" />
+
+            <TextView
+                android:id="@+id/account_number"
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:gravity="center_vertical"
+                android:text="@string/account_number"
+                android:textColor="@color/colorName"
+                android:textSize="30px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorShape" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_four"
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:layout_below="@+id/account_message" />
+
+        <TextView
+            android:id="@+id/account_modify_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_four"
+            android:layout_marginLeft="20px"
+            android:text="@string/account_modify_msg"
+            android:textColor="@color/colorWord" />
+
+        <View
+            android:id="@+id/view_five"
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:layout_below="@+id/account_modify_msg" />
+
+
+        <LinearLayout
+            android:id="@+id/account_modify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_five"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/account_modify_password"
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:layout_below="@+id/view_five"
+                android:gravity="center_vertical"
+                android:text="@string/account_modify_password"
+                android:textColor="@color/colorName"
+                android:textSize="30px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorShape" />
+
+            <TextView
+                android:id="@+id/account_modify_num"
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:layout_below="@+id/view_six"
+                android:gravity="center_vertical"
+                android:text="@string/account_modify_num"
+                android:textColor="@color/colorName"
+                android:textSize="30px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorShape" />
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/view_eight"
+            android:layout_width="match_parent"
+            android:layout_height="144px"
+            android:layout_below="@+id/account_modify" />
+
+        <LinearLayout
+            android:id="@+id/account_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_eight"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorShape" />
+
+            <TextView
+                android:id="@+id/account_quit"
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:gravity="center"
+                android:text="@string/account_quit"
+                android:visibility="visible"
+                android:textColor="@color/colorName"
+                android:textSize="30px" />
+            <TextView
+                android:id="@+id/account_enter"
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:gravity="center"
+                android:text="@string/account_enter"
+                android:visibility="gone"
+                android:textColor="@color/colorName"
+                android:textSize="30px" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorShape" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_nine"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_below="@+id/account_button_layout" />
+
+    </RelativeLayout>
+</ScrollView>

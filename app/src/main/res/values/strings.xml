@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">settings</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+
+<!--    <string name="airplane">Airplane mode</string>
+    <string name="system">System</string>
+    <string naic_wifiwifi">Wifi</string>
+    <string name="mobile_network">Mobilenetwork</string>
+    <string name="volume">Volume</string>
+    <string name="hotSpot_name">Personal hot spot</string>
+    <string name="hotSpot_num">P663_C500</string>
+    <string name="version_name">Check the new version</string>
+    <string name="version_num">V1.0</string>
+    <string name="time_name">Time</string>
+    <string name="language_name">Language</string>
+    <string name="about_name">About</string>
+    <string name="reset_name">Reset</string>
+    <string name="reset_page_name">Warning</string>-->
+    <string name="airplane">飞行模式</string>
+    <string name="system">系统</string>
+    <string name="wifi">WiFi</string>
+    <string name="mobile_network">移动网络</string>
+    <string name="volume">音量</string>
+    <string name="brightness">亮度</string>
+    <string name="hotSpot_name">个人热点</string>
+    <string name="hotSpot_num">P663_C500</string>
+    <string name="version_name">检查新版本</string>
+    <string name="version_num">V1.0</string>
+    <string name="time_name">时间</string>
+    <string name="language_name">语言</string>
+    <string name="about_name">关于</string>
+    <string name="reset_name">设备重置</string>
+    <string name="reset_page_name">警告</string>
+    <string name="reset_page_message">此操作会清除翻译机上的所有数据，包括：</string>
+    <string name="reset_page_message_one">你的账户</string>
+    <string name="reset_page_message_two">系统以及应用程序数据和设置</string>
+
+
+    <string name="language_page_choose_one">简体中文</string>
+    <string name="language_page_choose_two">繁体中文</string>
+    <string name="language_page_choose_three">日语</string>
+    <string name="language_page_choose_four">英语</string>
+    <string name="language_page_choose_five">韩文</string>
+
+
+    <string name="time_page_time">网络时间</string>
+    <string name="time_page_set_time">手动设置时间</string>
+    <string name="time_page_set_am">am</string>
+    <string name="time_page_set_pm">pm</string>
+    <string name="time_page_set_year">年</string>
+    <string name="time_page_set_month">月</string>
+    <string name="time_page_set_day">日</string>
+
+
+    <string name="account_bind">账号绑定</string>
+    <string name="account_number">电话号码</string>
+    <string name="account_name">姓名</string>
+    <string name="account_modify_msg">修改信息</string>
+    <string name="account_modify_password">修改密码</string>
+    <string name="account_modify_num">修改电话号码</string>
+    <string name="account_quit">退出当前账号</string>
+    <string name="account_enter">登入账号</string>
+
+
+</resources>

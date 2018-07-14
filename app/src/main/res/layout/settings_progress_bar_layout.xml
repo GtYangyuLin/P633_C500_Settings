@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176px"
+    android:background="@color/black"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:text="@string/volume"
+        android:textColor="@color/colorTitle"
+        android:textSize="22px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="36px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="152px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60px">
+
+
+            <ImageView
+                android:id="@+id/image_small"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_volume_small"
+                android:layout_alignParentLeft="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:layout_centerHorizontal="true"
+                android:gravity="center">
+
+                <SeekBar
+                    android:id="@+id/seek_bar"
+                    android:layout_width="300px"
+                    android:layout_height="60px"
+                    android:maxHeight="3px"
+                    android:progressDrawable="@drawable/seekbar_bg"/>
+                <!--android:thumb = "@drawable/seekbar_thumb"-->
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_large"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_volume_large"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

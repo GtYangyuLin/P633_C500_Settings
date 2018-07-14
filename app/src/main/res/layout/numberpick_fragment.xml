@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <com.gomtel.settings.util.NumberPickerView
+        android:id="@+id/picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:contentDescription="test_number_picker_view"
+        app:npv_DividerColor="@android:color/transparent"
+        app:npv_ItemPaddingHorizontal="5px"
+        app:npv_ItemPaddingVertical="5px"
+        app:npv_RespondChangeOnDetached="false"
+        app:npv_TextColorNormal="@color/colorTitle"
+        app:npv_TextColorSelected="@color/colorName"
+        app:npv_ShowCount="7"
+        app:npv_TextSizeNormal="22px"
+        app:npv_TextSizeSelected="28px"
+        app:npv_WrapSelectorWheel="true" />
+
+</LinearLayout>

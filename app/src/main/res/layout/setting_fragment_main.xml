@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/settings_top_layout"
+            layout="@layout/settings_main_top_layout" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48px"/>
+        <include
+            android:id="@+id/settings_mid_layout"
+            layout="@layout/settings_main_mid_layout" />
+
+        <include
+            android:id="@+id/settings_volume_layout"
+            layout="@layout/settings_progress_bar_layout" />
+
+        <include
+            android:id="@+id/settings_brightness_layout"
+            layout="@layout/settings_progress_bar_layout" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:text="@string/system"
+            android:textColor="@color/colorWord" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20px"
+            android:divider="@drawable/divider"
+            android:dividerPadding="1px"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <include
+                android:id="@+id/settings_hot_spot_layout"
+                layout="@layout/settings_main_items_layout" />
+
+            <include
+                android:id="@+id/settings_time_layout"
+                layout="@layout/settings_main_items_layout" />
+
+            <include
+                android:id="@+id/settings_language_layout"
+                layout="@layout/settings_main_items_layout" />
+
+            <include
+                android:id="@+id/settings_version_layout"
+                layout="@layout/settings_main_items_layout" />
+
+            <include
+                android:id="@+id/settings_about_layout"
+                layout="@layout/settings_main_items_layout" />
+
+            <include
+                android:id="@+id/settings_reset_layout"
+                layout="@layout/settings_main_items_layout" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
