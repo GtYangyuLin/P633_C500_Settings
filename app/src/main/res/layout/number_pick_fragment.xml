@@ -167,35 +167,39 @@
 
                     <com.gomtel.settings.util.LoopView
                         android:id="@+id/pick_date"
-                        android:layout_width="150px"
-                        android:layout_height="240px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         app:awv_centerTextColor="@color/colorName"
                         app:awv_dividerTextColor="@android:color/transparent"
                         app:awv_outerTextColor="@color/colorTitle"
-                        app:awv_textsize="20"
-                        app:awv_textsize_not_select="16" />
+                        app:awv_textsize="28"
+                        app:awv_textsize_not_select="22" />
 
                     <com.gomtel.settings.util.LoopView
                         android:id="@+id/pick_am_pm"
-                        android:layout_width="110px"
-                        android:layout_height="240px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         app:awv_centerTextColor="@color/colorName"
                         app:awv_dividerTextColor="@android:color/transparent"
                         app:awv_outerTextColor="@color/colorTitle"
-                        app:awv_textsize="20"
-                        app:awv_textsize_not_select="16" />
+                        app:awv_textsize="28"
+                        app:awv_textsize_not_select="22" />
 
                     <com.gomtel.settings.util.LoopView
                         android:id="@+id/pick_time"
-                        android:layout_width="90px"
-                        android:layout_height="240px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         app:awv_centerTextColor="@color/colorName"
                         app:awv_dividerTextColor="@android:color/transparent"
                         app:awv_outerTextColor="@color/colorTitle"
-                        app:awv_textsize="20"
-                        app:awv_textsize_not_select="16" />
+                        app:awv_textsize="28"
+                        app:awv_textsize_not_select="22" />
+
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
+
+
     </LinearLayout>
+
 </LinearLayout>
